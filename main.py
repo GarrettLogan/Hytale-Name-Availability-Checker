@@ -98,7 +98,7 @@ if __name__ == "__main__":
                 writer.writerow([name, status])
             except Exception as e:
                 print(f"{name}: {e}")
-                writer.writerow([name, "⚠ Error"])
+                writer.writerow([name, "! Error"])
                 if "429" in str(e):
                     print("Rate limit reached, waiting 60s...")
                     time.sleep(60)
