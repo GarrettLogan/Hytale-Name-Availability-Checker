@@ -7,3 +7,5 @@ Allows you to check if a name is available in they hytale game through endpoint 
 4. >$ pip install requests
 5. Run it
 6. Progress
+
+Note: I dont plan on changing anything except keeping this running unless there is enough attention to convince me to either make a GUI or make it more simple to input information. Not that I dont love yall but im working like 60-70 hours a week and did this on my lunch 
